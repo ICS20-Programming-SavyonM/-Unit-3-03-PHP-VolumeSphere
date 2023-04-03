@@ -35,8 +35,8 @@
           $volume = (4/3) * M_PI * pow($radius, 3);
           $result = round($volume, 2);
           echo "<label for='result'>Result:</label>";
-          echo "<input type='text' id='result' name='result' value='$result' placeholder='Volume rounded to the nearest hundredth'>";
-        }
+         echo "<p>Volume: " . $result . "cm<sup>2</sup></p>";
+		}
       ?>
     </form>
     <!--For image-->
